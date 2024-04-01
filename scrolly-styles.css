@@ -80,8 +80,8 @@
 
 .step > * {
     width: 700px;
-    margin-left: 1.3em;
-    margin-right: 1.3em;
+    /* margin-left: 1.3em;
+    margin-right: 1.3em; */
     text-align: center;
     padding: 1.2em !important;
 }
