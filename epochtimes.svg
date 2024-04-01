@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#EBEBEB;stroke-width:1.07;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:1.07;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:#4D4D4D;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:8.8px;}
+	.st6{enable-background:new    ;}
+	.st7{font-size:11px;}
+	.st8{font-size:13.2px;}
+</style>
+<rect class="st0" width="480" height="480"/>
+<rect class="st0" width="480" height="480"/>
+<rect x="38.2" y="23.3" class="st0" width="436.4" height="424.9"/>
+<line class="st1" x1="38.2" y1="419" x2="474.5" y2="419"/>
+<line class="st1" x1="38.2" y1="293.9" x2="474.5" y2="293.9"/>
+<line class="st1" x1="38.2" y1="168.8" x2="474.5" y2="168.8"/>
+<line class="st1" x1="38.2" y1="43.7" x2="474.5" y2="43.7"/>
+<line class="st1" x1="94.1" y1="448.3" x2="94.1" y2="23.3"/>
+<line class="st1" x1="166.2" y1="448.3" x2="166.2" y2="23.3"/>
+<line class="st1" x1="238.3" y1="448.3" x2="238.3" y2="23.3"/>
+<line class="st1" x1="310.4" y1="448.3" x2="310.4" y2="23.3"/>
+<line class="st1" x1="382.6" y1="448.3" x2="382.6" y2="23.3"/>
+<line class="st1" x1="454.7" y1="448.3" x2="454.7" y2="23.3"/>
+<polyline class="st2" points="58,419 94.1,424.5 130.1,428.3 166.2,429 202.2,426.3 238.3,420.6 274.4,409.5 310.4,410.3 
+	346.5,392.7 382.6,358 418.6,42.7 454.7,412.5 "/>
+<rect class="st0" width="480" height="480"/>
+<rect x="23.4" y="414.6" class="st0" width="9.8" height="10.4"/>
+<text transform="matrix(1 0 0 1 23.4419 422.1401)" class="st3 st4 st5">$0</text>
+<rect x="9.4" y="289.5" class="st0" width="23.9" height="10.4"/>
+<text transform="matrix(1 0 0 1 9.376 297.04)" class="st6"><tspan x="0" y="0" class="st3 st4 st5">$10</tspan><tspan x="16.5" y="0" class="st3 st4 st5">M</tspan></text>
+<rect x="9.5" y="164.4" class="st0" width="23.7" height="10.4"/>
+<text transform="matrix(1 0 0 1 9.5054 171.9399)" class="st6"><tspan x="0" y="0" class="st3 st4 st5">$20</tspan><tspan x="16.4" y="0" class="st3 st4 st5">M</tspan></text>
+<rect x="9.2" y="39.3" class="st0" width="24" height="10.4"/>
+<text transform="matrix(1 0 0 1 9.23 46.8398)" class="st6"><tspan x="0" y="0" class="st3 st4 st5">$30</tspan><tspan x="16.7" y="0" class="st3 st4 st5">M</tspan></text>
+<rect x="84.3" y="451.9" class="st0" width="19.6" height="10.4"/>
+<text transform="matrix(1 0 0 1 84.2715 459.5)" class="st3 st4 st5">2012</text>
+<rect x="156.4" y="451.9" class="st0" width="19.6" height="10.4"/>
+<text transform="matrix(1 0 0 1 156.4019 459.5)" class="st3 st4 st5">2014</text>
+<rect x="228.5" y="451.9" class="st0" width="19.6" height="10.4"/>
+<text transform="matrix(1 0 0 1 228.5215 459.5)" class="st3 st4 st5">2016</text>
+<rect x="300.7" y="451.9" class="st0" width="19.6" height="10.4"/>
+<text transform="matrix(1 0 0 1 300.6519 459.5)" class="st3 st4 st5">2018</text>
+<rect x="372.8" y="451.9" class="st0" width="19.6" height="10.4"/>
+<text transform="matrix(1 0 0 1 372.7715 459.5)" class="st3 st4 st5">2020</text>
+<rect x="444.9" y="451.9" class="st0" width="19.6" height="10.4"/>
+<text transform="matrix(1 0 0 1 444.9019 459.5)" class="st3 st4 st5">2022</text>
+<text transform="matrix(1 0 0 1 245.6407 472.09)" class="st4 st7">year</text>
+<rect x="3.9" y="213.5" class="st0" width="13" height="44.6"/>
+<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 13.3691 258.1196)" class="st4 st7">net asset</text>
+<rect x="38.2" y="3.6" class="st0" width="77" height="15.6"/>
+<text transform="matrix(1 0 0 1 38.1602 14.9395)" class="st6"><tspan x="0" y="0" class="st4 st8">Epoch</tspan><tspan x="37.4" y="0" class="st4 st8"> </tspan><tspan x="41" y="0" class="st4 st8">Times</tspan></text>
+</svg>
