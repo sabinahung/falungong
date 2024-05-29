@@ -28,6 +28,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   <link href="scrolly-styles.css" rel="stylesheet">
   <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.2.0/scrollama.min.js"></script>
@@ -35,38 +36,39 @@
 </head>
 
 <body>
+
   <div class="content">
-    <div class="header">
+    <!-- <div class="header">
       <h1>Everything, Everywhere, All about Anti-China Politics</h1>
       <p class="deck">How an anti-China spiritual group survives in the U.S.</p>
+      <div class="byline">
+        <p>By <a href="https://sabinahung.github.io/">Sabina Hung</a> 🕳️🕳️</p>
+      </div> -->
     </div>
-    <div class="byline">
-      <p>By <a href="https://sabinahung.github.io/">Sabina Hung</a> 🕳️🕳️</p>
-    </div>
-    <p>More often than not–Falun Gong, a spiritual martial arts group that fled to Western countries after being banned by China in 1999, appears in many forms around you. 
-    </p>
 
   </div>
-  <section id="scrolly-images" class="scrolly-container">
+  
+  <section id="scrolly-video" class="scrolly-container">
+    <div class="index">
+      <!-- <a class='byline' href="https://sabinahung.github.io/">Sabina Hung</a>  -->
+      <p>Everything, Everywhere, All about Anti-China Politics</p>
+    </div>
     <div class="sticky-thing">
-      <img src="img/restaurant.PNG">
     </div>
     <div class="steps-container">
-      <div class="step" id="step1">
-        <div>
-          <p>Perhaps it’s at your neighborhood restaurant,</p>
-        </div>
+      <div class="step" id="1-roadside">
+        <p>You've seen it by the roadside,</p>
       </div>
-      <div class="step" id="step2">
-        <p>Or maybe it’s at your next-door market,</p>
+      <div class="step" id="2-restaurant">
+        <p>At your neighborhood restaurant,</p>
       </div>
-      <div class="step" id="step3">
-        <p>It could also be by the roadside,</p>
+      <div class="step" id="3-market" style="height: 200svh">
+        <p>Or maybe it’s at your <br>next-door market, </p>
       </div>
-      <div class="step" id="step4">
-        <p>Or even when you're strolling in your block,</p>
+      <div class="step" id="4-neighborhood">
+        <p>Or even when you're <br>strolling in your block</p>
       </div>
-      <div class="step" id="step5">
+      <div class="step" id="5-flg" style="height: 200svh">
         <p>They are in fact all run by this Chinese spiritual group--Falun Gong.</p>
       </div>
     </div>
@@ -193,69 +195,39 @@
     </div>
   </div>
 
-  <script>
-    /*************
-    
-    This is the JavaScript that makes the scrolly work 
-    
-    *************/
-
-    /* 
-    This part attaches a scroll to the element with id="scrolly-images"    
-    */
-    (() => {
-      const scroller = scrollama()
-
-      scroller
-        .setup({
-          parent: document.querySelector("#scrolly-images"),
-          step: ".step",
-          offset: 0.9,
-          debug: false,
-        })
-        .onStepEnter(function ({ element, index, direction }) {
-          const event = new CustomEvent("stepin", { detail: { direction: direction } })
-          element.dispatchEvent(event)
-        })
-        .onStepExit(function ({ element, index, direction }) {
-          const event = new CustomEvent("stepout", { detail: { direction: direction } })
-          if (direction === "up" && element.previousElementSibling) {
-            const event = new CustomEvent("stepin", { detail: { direction: direction } })
-            element.previousElementSibling.dispatchEvent(event)
-          }
-        })
-
-      window.addEventListener("resize", scroller.resize)
-    })()
-
+  <script src="https://cdn.jsdelivr.net/npm/scrolly-video@latest/dist/scrolly-video.js"></script>
+  <script type="text/javascript">
     /*
-    This part sets up your actions. In this case, it's changing the image in the scrolly container.
+    Different videos need different things - does the reader need to see
+    the entire screen of the video, or you want to make sure it covers the
+    entire window?
+
+    You can experiment with yours by removing the // from the full and
+    cover options below to see how it looks with your videos. 
+   
+    You can see parameters at 
+    https://github.com/dkaoster/scrolly-video?tab=readme-ov-file#-options--attributes
+
+    You might also need to adjust object-fit being 'cover' vs 'contain' in the CSS below
+
+    Be sure to check mobile!!
     */
-    d3.select("#step1").on('stepin', (e) => {
-      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "img/restaurant.PNG")
-    })
-
-    d3.select("#step2").on('stepin', (e) => {
-      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "img/market.JPG")
-    })
-
-    d3.select("#step3").on('stepin', (e) => {
-      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "img/roadside.jpg")
-    })
-
-    // d3.select("#step4").on('stepin', (e) => {
-    //   d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "donkey.jpg")
-    // })
-
-    d3.select("#step5").on('stepin', (e) => {
-      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "img/march.png")
-    })
+    new ScrollyVideo({
+      scrollyVideoContainer: document.querySelector("#scrolly-video .sticky-thing"),
+      src: "flg-5.mp4",
+      full: true,
+      // cover: false
+    });
   </script>
   <style>
-    /* Change this to adjust the padding between steps */
     .step {
-      margin-bottom: 85vh;
+      height: 150svh;
+      margin-bottom: 0;
     }
+
+    /* .sticky-thing > canvas {
+      object-fit: contain;
+    } */
   </style>
 
 </body>

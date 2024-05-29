@@ -11,8 +11,25 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-rendering: optimizeLegibility;
     background-color: white;
+    color:black;
 }
+.index {
+    background-color:black;
+    z-index: 1000;
+    height: 6svh;
+    display: inline-flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    border-bottom: white 1px solid;
 
+}
+.index p {
+    margin: 0;
+    color:white
+}
 .content {
     max-width: 750px;
     margin: auto;
@@ -20,8 +37,9 @@ body {
 
 .header {
     margin: 0;
-    padding-top: 2vh;
-
+    margin-top: 2vh;
+    height: 50svh;
+    align-items: center;
 }
 
 h1 {
@@ -32,6 +50,8 @@ h1 {
     line-height: 1.5;
     letter-spacing: .1rem;
     margin-top: 0;
+    color:white;
+    
 }
 .deck, .section {
     letter-spacing: .05rem;
@@ -40,6 +60,7 @@ h1 {
     font-size: 3vh;
     font-weight: 500;
     font-family: 'Lora', Georgia, serif;
+    margin-bottom: 1.2svh;
 }
 .section{
     font-size: 3vh;
@@ -52,6 +73,7 @@ h1 {
     color: #666;
     margin: 0;
     padding: 0;
+    text-align: left ;
 }
 
 iframe, img, video {
@@ -62,7 +84,7 @@ iframe, img, video {
 p {
     line-height: 1.6;
     margin: 0;
-    padding-bottom: 1.2em;
+    margin-bottom: 1.2em;
 }
 .chart-container {
     margin: 0;
