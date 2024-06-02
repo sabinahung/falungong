@@ -1,0 +1,16 @@
+{
+    "fonts": [
+        {
+            "aifont": "Sarabun-Bold",
+            "family": "Sarabun",
+            "weight": "700",
+            "style": ""
+        },
+        {
+            "aifont": "Sarabun-Regular",
+            "family": "Sarabun",
+            "weight": "400",
+            "style": ""
+        }
+    ]
+}
