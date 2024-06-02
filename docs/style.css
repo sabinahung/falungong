@@ -59,7 +59,7 @@ h1 {
     line-height: 1.5;
     letter-spacing: .1rem;
     color:black;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     
 }
 .deck, .section {
@@ -70,7 +70,7 @@ h1 {
     font-size: 3vh;
     font-weight: 500;
     font-family: 'Lora', Georgia, serif;
-    margin: 0;
+    margin-bottom: 1rem;
 
 }
 .section{
