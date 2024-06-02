@@ -54,7 +54,7 @@
     z-index: 10;
     max-width: 35rem;
     margin: 0 auto;
-    padding-bottom: 4em;
+    margin-bottom: 5svh;
 }
 
 .step {

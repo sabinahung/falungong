@@ -7,7 +7,7 @@ a {
 /* mainly thissss */
 body {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-rendering: optimizeLegibility;
     background-color: white;
@@ -17,7 +17,7 @@ body {
     background-color:black;
     z-index: 1000;
     height: 6svh;
-    display: inline-flex;
+    display: flex;
     position: fixed;
     width: 100%;
     justify-content: center;
@@ -28,7 +28,15 @@ body {
 }
 .index p {
     margin: 0;
-    color:white
+    color:white;
+    font-size: 1.3em;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.index a{
+    display:none;
 }
 .content {
     max-width: 750px;
@@ -81,8 +89,8 @@ iframe, img, video {
 }
 
 
-p {
-    line-height: 1.6;
+.content p {
+    line-height: 1.6;  /* Unitless values: use this number multiplied by the element's font size */
     margin: 0;
     margin-bottom: 1.2em;
 }
@@ -123,8 +131,14 @@ code {
 
 /* margin on mobile */
 @media (max-width: 640px) {
-    body {
-        font-size: 18px;
+    .index {
+        justify-content:flex-start;
+    }
+    .index p {
+        display:none;
+    }
+    .index a{
+        display:flex;
     }
     .content {
         padding-left: 2.5vw;
