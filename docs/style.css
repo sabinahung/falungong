@@ -59,15 +59,19 @@ h1 {
     line-height: 1.5;
     letter-spacing: .1rem;
     color:black;
+    margin-bottom: 1rem;
     
 }
 .deck, .section {
     letter-spacing: .05rem;
+
 }
 .deck{
     font-size: 3vh;
     font-weight: 500;
     font-family: 'Lora', Georgia, serif;
+    margin: 0;
+
 }
 .section{
     font-size: 1.1rem;
