@@ -6,7 +6,7 @@ a {
 
 /* mainly thissss */
 body {
-    margin: 0;
+    margin: auto;
     font-size: 1.1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-rendering: optimizeLegibility;
@@ -44,21 +44,21 @@ body {
 }
 
 .header {
-    margin: 0;
-    margin-top: 2vh;
-    height: 50svh;
+    height: auto;
     align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
 }
 
 h1 {
-    padding-top: 7vh;
     font-weight: 700;
     font-family: 'Libre Baskerville', serif;
     font-size: 5vh;
     line-height: 1.5;
     letter-spacing: .1rem;
-    margin-top: 0;
-    color:white;
+    color:black;
     
 }
 .deck, .section {
@@ -68,20 +68,20 @@ h1 {
     font-size: 3vh;
     font-weight: 500;
     font-family: 'Lora', Georgia, serif;
-    margin-bottom: 1.2svh;
 }
 .section{
-    font-size: 3vh;
-    margin-top: 3vh;
+    font-size: 1.1rem;
     font-weight: 700;
     font-family: 'Libre Baskerville', serif;
+}
+.section > p {
+    margin-bottom: 20rem;
 }
 .byline{
     font-size: 1em;
     color: #666;
     margin: 0;
     padding: 0;
-    text-align: left ;
 }
 
 iframe, img, video {
@@ -91,8 +91,6 @@ iframe, img, video {
 
 .content p {
     line-height: 1.6;  /* Unitless values: use this number multiplied by the element's font size */
-    margin: 0;
-    margin-bottom: 1.2em;
 }
 .chart-container {
     margin: 0;
@@ -108,7 +106,7 @@ code {
     font-family: 'Courier New', monospace;
     background: #fff880;
 }
-#g-demographic-laptop, #g-demographic-full-size, #g-demographic-mobile {
+#g-demographic-laptop, #g-demographic-full-size, #g-demographic-mobile  {
     display: none;
 }
 @media (max-width: 490px) {
