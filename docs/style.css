@@ -100,23 +100,23 @@ code {
     font-family: 'Courier New', monospace;
     background: #fff880;
 }
-#g-timeline-laptop, #g-timeline-full-size, #g-timeline-mobile {
+#g-demographic-laptop, #g-demographic-full-size, #g-demographic-mobile {
     display: none;
 }
 @media (max-width: 490px) {
-    #g-timeline-mobile {
+    #g-demographic-mobile {
         display: block;
     }
 }
 
 @media (min-width: 490px) and (max-width: 620px) {
-    #g-timeline-laptop {
+    #g-demographic-laptop {
         display: block;
     }
 }
 
 @media (min-width: 620px)  {
-    #g-timeline-full-size {
+    #g-demographic-full-size {
         display: block;
     }
 }
